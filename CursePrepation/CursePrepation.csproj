@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignment.cs" />
+    <Compile Include="CustomerId.cs" />
+    <Compile Include="Data\Demo.cs" />
+    <Compile Include="FtpHelper.cs" />
+    <Compile Include="ITemperature.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Temperature.cs" />
+    <Compile Include="UserGroup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
